@@ -1,5 +1,4 @@
 import { createFormValidator } from "@sjsf/ajv8-validator";
-import { redirect } from "@sveltejs/kit";
 import type { UiSchemaRoot, Schema } from "@sjsf/form";
 import type { Actions, PageServerLoad } from "./$types";
 
